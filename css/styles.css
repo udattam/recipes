@@ -2,26 +2,31 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+body{
+    padding: 16px;
+}
 .image{
-    height: 400px;
-    width: quto;
+    height: auto;
 }
 h1,h2,h3 {
     color: white;
     background-color: steelblue;
     font-size: 32px;
 }
-h2{
+h2,h3{
     font-size: 24px;
 }
-h3{
+ul,ol{
+    list-style-position: inside;
+    padding: 0px;
     font-size: 16px;
 }
 li{
     text-align: left;
+    
 }
 .main-page{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 a{
